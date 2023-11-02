@@ -11,8 +11,13 @@ spec:
   rules:
     - http:
         paths:
-          - backend:
-              serviceName: frontend
+          - path: /user
+            pathType: Prefix
+            backend:
+              serviceName: user
               servicePort: 3000
-              path: /
-              pathType: Prefix
+          - path: /owner
+            pathType: Prefix
+            backend:
+              serviceName: owner
+              servicePort: 3000
