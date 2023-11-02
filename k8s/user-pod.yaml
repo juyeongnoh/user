@@ -14,7 +14,7 @@ spec:
       containers:
         - name: user
           # 여러분의 image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_4d25686e620b
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_47474a7aa296
 
 ---
 apiVersion: v1
