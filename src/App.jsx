@@ -11,7 +11,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/user" element={<HomePage />}></Route>
       </Routes>
     </BrowserRouter>
   );
