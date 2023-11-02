@@ -14,12 +14,10 @@ spec:
           - path: /user
             pathType: Prefix
             backend:
-              path: /user
               serviceName: user
               servicePort: 3000
           - path: /owner
             pathType: Prefix
             backend:
-              path: /owner
               serviceName: owner
               servicePort: 3000
